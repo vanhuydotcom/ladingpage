@@ -1,0 +1,111 @@
+/* reset css of browser */
+h1 ,p{
+   margin: 0;
+}
+button{
+   outline: none;
+   border: none;
+   font-family: "Poppins";
+   background-color: transparent;
+   font-size: 16px;
+   font-weight: normal;
+   font-style: normal;
+}
+/* end */
+body{
+   font-family: "Poppins";
+   font-size: 16px;
+   font-weight: normal;
+   font-style: normal;
+   color: #03045E;
+   background-color: #fff;
+   margin: 0;
+}
+
+/* container */
+.container {
+   padding: 0 100px;
+}
+
+/* head */
+header{
+   background: #F7F8FD;
+}
+/* top head*/
+header .top{
+   display: flex;
+   justify-content: space-between;
+   align-items: center ;
+   margin-bottom: 185px;
+}
+/* logo */
+header .top .top-logo{
+
+}
+header .top .top-logo img{
+   width: 195px;
+   height: 49px;
+   object-fit: contain;
+}
+/* menu */
+header .top .top-menu ul{
+   display: flex;
+   list-style: none;
+}
+header .top .top-menu ul li{
+   padding:12px 20px;
+   cursor: pointer;
+}
+header .top .top-menu ul .button-login{
+   background: #03045E;
+   border-radius: 5px;
+}
+header .top .top-menu ul .button-login button{
+   color: #fff;
+   font-weight: 700;
+   font-size: 18px;
+}
+/* main head */
+
+header .main{
+   display: flex;
+   align-items: center;
+   gap:40px;   /* khoang cach trong flex box*/
+}
+header .main div{
+   width: 50%;
+}
+header .main .main-info{
+   display: flex;
+   flex-direction: column;
+   gap: 36px;
+   align-items: flex-start;
+}
+header .main .main-info h1{
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 68px;
+}
+header .main .main-info p{
+  line-height: 24px;
+   opacity: .5;
+}
+header .main .main-info button{
+   cursor: pointer;
+   padding: 17px 38px;
+   background-color: #0098FF;
+   border-radius: 5px;
+   color: #fff;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 27px;
+}
+header .main .main-img{
+}
+header .main .main-img img{
+   width: 100%;
+   object-fit: contain;
+}
+
+
+
