@@ -1,5 +1,5 @@
 /* reset css of browser */
-h1 ,p{
+h1, h2 ,p{
    margin: 0;
 }
 button{
@@ -108,4 +108,98 @@ header .main .main-img img{
 }
 
 
+/* main */
+main{
 
+}
+/* section search */
+main .search{
+   padding: 150px 0;
+}
+main .search .container{
+   display: flex;
+   align-items: center;
+}
+main .search .item{
+  
+}
+main .search .search-form{
+    width: 50%;
+    padding-right: 69px;
+   border-right: 1px solid rgb(3, 4, 94, 0.1 );
+}
+
+main .search .search-form .search-form-title{
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 37px;
+   margin-bottom:36px;
+}
+main .search .search-form .search-form-wrap{
+  
+}
+
+
+main .search .search-form .search-form-wrap .search-form-input{
+  height: 60px;
+  display: flex;
+}
+main .search .search-form .search-form-wrap .search-form-input input{
+   height: 100%;
+   width: 100%;
+   background: #F6F6F6;
+   border-radius: 5px 0 0 5px;
+   border: none;
+   padding: 0 20px;
+   /* color text input */
+   color: #03045E;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   outline: none;
+}
+main .search .search-form .search-form-wrap .search-form-input input::placeholder{
+   color: #03045E;
+   opacity: 0.5;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+}
+main .search .search-form .search-form-wrap .search-form-input button{
+   width: 159px;
+   height: 100%;
+   border-radius: 0 5px 5px 0;
+   background: #0098FF;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 27px;
+   color: #fff;
+   cursor: pointer;
+}
+
+main .search .search-domain{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 32px;
+    width: 50%;
+    padding-left: 69px;
+}
+main .search .search-domain .search-domain-item{
+
+}
+main .search .search-domain .search-domain-item p{
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 23px;
+   color: #0098FF;
+   margin-bottom: 7px;
+}
+main .search .search-domain .search-domain-item span{
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 21px;
+   color: #03045E;
+   opacity: 0.3;
+}
